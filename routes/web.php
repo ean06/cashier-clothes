@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VoucherController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +30,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::resource('discounts', DiscountController::class);
+Route::resource('voucher', VoucherController::class);
 
 
 require __DIR__.'/auth.php';
