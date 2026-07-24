@@ -38,11 +38,7 @@ npm run dev
 php artisan serve
 ```
 
-## 📱 Preview
 
-<p align="center">
-  <img src="./preview.png" width="800" alt="Cashier & Distro Inventory Preview">
-</p>
 
 ## 📌 Status
 
